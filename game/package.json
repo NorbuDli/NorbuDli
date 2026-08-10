@@ -1,0 +1,9 @@
+{
+  "name": "github-galaga",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "pacman-contribution-graph": "latest",
+    "playwright": "latest"
+  }
+}

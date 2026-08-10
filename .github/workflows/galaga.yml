@@ -1,0 +1,71 @@
+name: Generate Galaga Game
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: game/package.json
+
+      - name: Install dependencies
+        working-directory: game
+        run: npm install
+
+      - name: Install Chromium
+        working-directory: game
+        run: npx playwright install --with-deps chromium
+
+      - name: Generate Galaga SVG
+        working-directory: game
+        run: |
+          cat > generate.mjs <<'EOF'
+          import { chromium } from 'playwright';
+          import fs from 'fs';
+
+          const browser = await chromium.launch({
+            headless: true
+          });
+
+          const page = await browser.newPage();
+
+          await page.goto('file://' + process.cwd() + '/index.html');
+
+          await page.waitForFunction(() => window.generatedSVG);
+
+          const svg = await page.evaluate(() => window.generatedSVG);
+
+          fs.writeFileSync('../galaga.svg', svg);
+
+          await browser.close();
+
+          console.log('Galaga SVG generated!');
+          EOF
+
+          node generate.mjs
+
+      - name: Commit Galaga
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add galaga.svg
+
+          git diff --cached --quiet || git commit -m "Update Galaga contribution game"
+
+          git push
