@@ -1,71 +1,32 @@
-name: Generate Galaga Game
+name: Generate Galaga Contribution Graph
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
-
-permissions:
-  contents: write
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   generate:
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Generate Galaga
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          node-version: 20
-          cache: npm
-          cache-dependency-path: game/package.json
+          github_user_name: ${{ github.repository_owner }}
+          games: 'galaga'
 
-      - name: Install dependencies
-        working-directory: game
-        run: npm install
-
-      - name: Install Chromium
-        working-directory: game
-        run: npx playwright install --with-deps chromium
-
-      - name: Generate Galaga SVG
-        working-directory: game
-        run: |
-          cat > generate.mjs <<'EOF'
-          import { chromium } from 'playwright';
-          import fs from 'fs';
-
-          const browser = await chromium.launch({
-            headless: true
-          });
-
-          const page = await browser.newPage();
-
-          await page.goto('file://' + process.cwd() + '/index.html');
-
-          await page.waitForFunction(() => window.generatedSVG);
-
-          const svg = await page.evaluate(() => window.generatedSVG);
-
-          fs.writeFileSync('../galaga.svg', svg);
-
-          await browser.close();
-
-          console.log('Galaga SVG generated!');
-          EOF
-
-          node generate.mjs
-
-      - name: Commit Galaga
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add galaga.svg
-
-          git diff --cached --quiet || git commit -m "Update Galaga contribution game"
-
-          git push
+      - name: Push generated SVGs
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
