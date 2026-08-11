@@ -1,13 +1,8 @@
-<h1 align="center" >About Me</h1> 
 
-I am a BCA student interested in building practical and creative technology.
-
-* AI and Machine Learning
-* NLP and Language Technology
-* Game Development
-* Creative Product Development
-
-I enjoy learning by building projects, experimenting with new technologies, and turning ideas into real-world applications.
+<h2>About Me</h2>
+<p>I am a BCA student interested in building practical and creative technology.<br>
+<b>Interests:</b> AI and Machine Learning · NLP and Language Technology · Game Development · Creative Product Development<br>
+I enjoy learning by building projects, experimenting with new technologies, and turning ideas into real-world applications.</p>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tenzin-norbu-4b0105388?utm_source=share_via&utm_content=profile&utm_medium=member_android) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tenznorbu11@gmail.com) 
