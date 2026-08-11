@@ -1,12 +1,50 @@
 
 <h2>About Me</h2>
-<p>I am a BCA student interested in building practical and creative technology.<br>
-<b>Interests:
-</b> AI and Machine Learning <br>
-  · NLP and Language Technology <br>
-  · Game Development <br>
-  · Creative Product Development<br>
-I enjoy learning by building projects, experimenting with new technologies, and turning ideas into real-world applications.</p>
+
+<p>
+I am a BCA student and aspiring AI developer who enjoys turning ideas into practical, real-world projects.
+I learn best by building, experimenting, and solving problems along the way.
+</p>
+
+<h3>Interests</h3>
+
+<ul>
+  <li>Artificial Intelligence and Machine Learning</li>
+  <li>Natural Language Processing and Language Technology</li>
+  <li>AI-powered Applications and Intelligent Systems</li>
+  <li>Game Development and Interactive Experiences</li>
+  <li>Creative Product and Application Development</li>
+</ul>
+
+<h3>Strengths</h3>
+
+<ul>
+  <li>Strong curiosity and willingness to learn new technologies</li>
+  <li>Practical problem-solving and debugging</li>
+  <li>Turning ideas into working projects</li>
+  <li>Learning through experimentation and hands-on development</li>
+  <li>Creative thinking and project design</li>
+  <li>Adapting to unfamiliar tools, frameworks, and technologies</li>
+</ul>
+
+<h3>What I Like Building</h3>
+
+<p>
+I enjoy working on projects that combine AI, software, creativity, and real-world use cases.
+My goal is to continuously improve my technical skills while building projects that are useful, interesting, and meaningful.
+</p>
+
+<h3>Current Focus</h3>
+
+<p>
+Currently exploring AI development, NLP, speech technologies, software development, and ways to turn ideas into complete applications.
+</p>
+
+<hr>
+
+<p>
+<b>Build. Experiment. Learn. Improve.</b>
+</p>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tenzin-norbu-4b0105388?utm_source=share_via&utm_content=profile&utm_medium=member_android) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tenznorbu11@gmail.com) 
