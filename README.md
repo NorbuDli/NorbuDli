@@ -1,7 +1,7 @@
 <div align="center">
 
 # About Me
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tenzin-norbu-4b0105388?utm_source=share_via&utm_content=profile&utm_medium=member_android) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tenznorbu11@gmail.com) 
 <p>
 BCA student and aspiring AI developer focused on building practical and creative technology.
 </p>
@@ -107,8 +107,6 @@ and building complete applications from ideas to implementation.
 
 </div>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tenzin-norbu-4b0105388?utm_source=share_via&utm_content=profile&utm_medium=member_android) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tenznorbu11@gmail.com) 
 
 <h1 align="center"> 💻 Tech Stack </h1>
 
