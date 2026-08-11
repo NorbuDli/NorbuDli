@@ -1,7 +1,11 @@
 
 <h2>About Me</h2>
 <p>I am a BCA student interested in building practical and creative technology.<br>
-<b>Interests:</b> AI and Machine Learning · NLP and Language Technology · Game Development · Creative Product Development<br>
+<b>Interests:
+</b> AI and Machine Learning <br>
+  · NLP and Language Technology <br>
+  · Game Development <br>
+  · Creative Product Development<br>
 I enjoy learning by building projects, experimenting with new technologies, and turning ideas into real-world applications.</p>
 
 ## 🌐 Socials:
