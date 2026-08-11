@@ -1,7 +1,9 @@
 <div align="center">
 
-# About Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tenzin-norbu-4b0105388?utm_source=share_via&utm_content=profile&utm_medium=member_android) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tenznorbu11@gmail.com) 
+<h2>About Me</h2>
+
+<hr>
+
 <p>
 BCA student and aspiring AI developer focused on building practical and creative technology.
 </p>
@@ -10,11 +12,20 @@ BCA student and aspiring AI developer focused on building practical and creative
 
 <hr>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<!-- Interests & Strengths -->
 
-<h3 align="center">Interests</h3>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+
+<td width="48%" valign="top">
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0">
+<tr>
+<td>
+
+<div align="center">
+<h3>Interests</h3>
+</div>
 
 <ul>
 <li>Artificial Intelligence & Machine Learning</li>
@@ -26,10 +37,22 @@ BCA student and aspiring AI developer focused on building practical and creative
 </ul>
 
 </td>
+</tr>
+</table>
 
-<td width="50%" valign="top">
+</td>
 
-<h3 align="center">Strengths</h3>
+<td width="4%"></td>
+
+<td width="48%" valign="top">
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0">
+<tr>
+<td>
+
+<div align="center">
+<h3>Strengths</h3>
+</div>
 
 <ul>
 <li>Problem Solving</li>
@@ -44,47 +67,120 @@ BCA student and aspiring AI developer focused on building practical and creative
 </tr>
 </table>
 
+</td>
+
+</tr>
+</table>
+
 <hr>
 
-<div align="center">
+<!-- What I Like Building -->
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0">
+<tr>
+<td align="center">
 
 <h3>What I Like Building</h3>
 
 <p>
 I enjoy building projects that combine AI, software, creativity, and real-world applications.
+<br>
 I prefer learning through hands-on development and experimenting with new technologies.
 </p>
 
-</div>
+</td>
+</tr>
+</table>
 
 <hr>
 
-<table>
-<tr>
-<td align="center" width="33%">
+<!-- Development Areas -->
 
-<b>AI Development</b><br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+
+<td width="32%" valign="top">
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0">
+<tr>
+<td align="center">
+
+<h3>AI Development</h3>
+
+<p>
 Machine Learning<br>
 NLP<br>
 Speech Technology
+</p>
+
+</td>
+</tr>
+</table>
 
 </td>
 
-<td align="center" width="33%">
+<td width="2%"></td>
 
-<b>Software Development</b><br>
+<td width="32%" valign="top">
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0">
+<tr>
+<td align="center">
+
+<h3>Software Development</h3>
+
+<p>
 Applications<br>
 APIs<br>
 Problem Solving
+</p>
+
+</td>
+</tr>
+</table>
 
 </td>
 
-<td align="center" width="33%">
+<td width="2%"></td>
 
-<b>Creative Development</b><br>
+<td width="32%" valign="top">
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0">
+<tr>
+<td align="center">
+
+<h3>Creative Development</h3>
+
+<p>
 Game Development<br>
 Product Ideas<br>
 Interactive Experiences
+</p>
+
+</td>
+</tr>
+</table>
+
+</td>
+
+</tr>
+</table>
+
+<hr>
+
+<!-- Current Focus -->
+
+<table width="100%" border="1" cellpadding="15" cellspacing="0">
+<tr>
+<td align="center">
+
+<h3>Current Focus</h3>
+
+<p>
+Exploring AI development, NLP, speech technologies, software development,
+<br>
+and building complete applications from ideas to implementation.
+</p>
 
 </td>
 </tr>
@@ -94,19 +190,9 @@ Interactive Experiences
 
 <div align="center">
 
-<h3>Current Focus</h3>
-
-<p>
-Exploring AI development, NLP, speech technologies, software development,
-and building complete applications from ideas to implementation.
-</p>
-
-<br>
-
-<b>Build • Experiment • Learn • Improve</b>
+<b>Build · Experiment · Learn · Improve</b>
 
 </div>
-
 
 <h1 align="center"> 💻 Tech Stack </h1>
 
