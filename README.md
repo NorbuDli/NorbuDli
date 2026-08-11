@@ -1,50 +1,111 @@
+<div align="center">
 
-<h2>About Me</h2>
+# About Me
 
 <p>
-I am a BCA student and aspiring AI developer who enjoys turning ideas into practical, real-world projects.
-I learn best by building, experimenting, and solving problems along the way.
+BCA student and aspiring AI developer focused on building practical and creative technology.
 </p>
 
-<h3>Interests</h3>
+</div>
+
+<hr>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">Interests</h3>
 
 <ul>
-  <li>Artificial Intelligence and Machine Learning</li>
-  <li>Natural Language Processing and Language Technology</li>
-  <li>AI-powered Applications and Intelligent Systems</li>
-  <li>Game Development and Interactive Experiences</li>
-  <li>Creative Product and Application Development</li>
+<li>Artificial Intelligence & Machine Learning</li>
+<li>Natural Language Processing</li>
+<li>Speech & Language Technology</li>
+<li>AI-powered Applications</li>
+<li>Game Development</li>
+<li>Creative Product Development</li>
 </ul>
 
-<h3>Strengths</h3>
+</td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">Strengths</h3>
 
 <ul>
-  <li>Strong curiosity and willingness to learn new technologies</li>
-  <li>Practical problem-solving and debugging</li>
-  <li>Turning ideas into working projects</li>
-  <li>Learning through experimentation and hands-on development</li>
-  <li>Creative thinking and project design</li>
-  <li>Adapting to unfamiliar tools, frameworks, and technologies</li>
+<li>Problem Solving</li>
+<li>Creative Thinking</li>
+<li>Hands-on Learning</li>
+<li>Debugging & Experimentation</li>
+<li>Adapting to New Technologies</li>
+<li>Turning Ideas into Working Projects</li>
 </ul>
+
+</td>
+</tr>
+</table>
+
+<hr>
+
+<div align="center">
 
 <h3>What I Like Building</h3>
 
 <p>
-I enjoy working on projects that combine AI, software, creativity, and real-world use cases.
-My goal is to continuously improve my technical skills while building projects that are useful, interesting, and meaningful.
+I enjoy building projects that combine AI, software, creativity, and real-world applications.
+I prefer learning through hands-on development and experimenting with new technologies.
 </p>
+
+</div>
+
+<hr>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+<b>AI Development</b><br>
+Machine Learning<br>
+NLP<br>
+Speech Technology
+
+</td>
+
+<td align="center" width="33%">
+
+<b>Software Development</b><br>
+Applications<br>
+APIs<br>
+Problem Solving
+
+</td>
+
+<td align="center" width="33%">
+
+<b>Creative Development</b><br>
+Game Development<br>
+Product Ideas<br>
+Interactive Experiences
+
+</td>
+</tr>
+</table>
+
+<hr>
+
+<div align="center">
 
 <h3>Current Focus</h3>
 
 <p>
-Currently exploring AI development, NLP, speech technologies, software development, and ways to turn ideas into complete applications.
+Exploring AI development, NLP, speech technologies, software development,
+and building complete applications from ideas to implementation.
 </p>
 
-<hr>
+<br>
 
-<p>
-<b>Build. Experiment. Learn. Improve.</b>
-</p>
+<b>Build • Experiment • Learn • Improve</b>
+
+</div>
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tenzin-norbu-4b0105388?utm_source=share_via&utm_content=profile&utm_medium=member_android) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tenznorbu11@gmail.com) 
